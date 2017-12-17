@@ -3,7 +3,6 @@
     @import './components/table.less';
 </style>
 
-
 <template>
     <div>
         <Row>
@@ -35,6 +34,7 @@
 <script>
 import html2canvas from 'html2canvas';
 export default {
+    name: 'table-to-image',
     data () {
         return {
             tableData1: this.mockTableData1(),
